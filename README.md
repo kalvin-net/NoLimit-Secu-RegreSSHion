@@ -4,7 +4,7 @@
 
 ## Introduction
 
-> Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH).
+> Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH). Pour écouter le podcast complet, cliquez sur ce [lien](https://www.nolimitsecu.fr/regresshion/).
 
 ## Impact
 
