@@ -4,19 +4,19 @@
 
 ## Introduction
 
-Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH).
+> Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH).
 
 ## Impact
 
-Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root.
+> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root.
 
 ## Détails techniques
 
-La faille est due à une **condition de course** dans le gestionnaire de signaux d'OpenSSH. Un attaquant peut déclencher cette condition en envoyant un grand nombre de tentatives de connexion SSH au serveur.
+> La faille est due à une **condition de course** dans le gestionnaire de signaux d'OpenSSH. Un attaquant peut déclencher cette condition en envoyant un grand nombre de tentatives de connexion SSH au serveur.
 
 ## Exploitation
 
-L'exploitation de la faille est **complexe** et nécessite un grand nombre de tentatives de connexion. Il est peu probable qu'elle soit utilisée à grande échelle.
+> L'exploitation de la faille est **complexe** et nécessite un grand nombre de tentatives de connexion. Il est peu probable qu'elle soit utilisée à grande échelle.
 
 ## Mitigation
 
@@ -27,7 +27,7 @@ Pour limiter le risque d'exploitation, les mesures suivantes peuvent être mises
 - **Limiter le nombre de tentatives de connexion SSH** autorisées par adresse IP.
 - **Surveiller les logs SSH** pour détecter les activités suspectes.
 
-La faille RegreSSHion est une vulnérabilité sérieuse qui affecte les systèmes Linux 32 bits. Il est crucial de mettre à jour OpenSSH vers la dernière version et de mettre en place des mesures de mitigation pour limiter le risque d'exploitation.
+> La faille RegreSSHion est une vulnérabilité sérieuse qui affecte les systèmes Linux 32 bits. Il est crucial de mettre à jour OpenSSH vers la dernière version et de mettre en place des mesures de mitigation pour limiter le risque d'exploitation.
 
 ## Points clés
 
