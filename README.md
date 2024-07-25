@@ -4,7 +4,7 @@
 
 ## Introduction
 
-> Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH). Pour écouter le podcast complet, cliquez sur ce [lien](https://www.nolimitsecu.fr/regresshion/).
+> Le podcast **NonLimitSecules** aborde la faille **RegreSSHion**, une vulnérabilité CVE-2024-6387 d'exécution de code à distance (RCE) dans le serveur SSH (OpenSSH). Pour écouter le podcast complet, cliquez sur ce [lien](https://www.nolimitsecu.fr/regresshion/).
 
 ## Impact
 
@@ -12,8 +12,8 @@
 
 ## Détails techniques
 
-- **Fonctionnement:** La vulnérabilité exploitée une condition de course dans le traitement des requêtes d'authentification. En envoyant un flux spécifique de paquets, un attaquant peut provoquer une erreur de débordement de tampon, permettant ainsi l'exécution de code arbitraire.
-- **Systèmes Affectés:** Principalement les systèmes Linux 32 bits (x86) utilisant une pile GNU libc. Cependant, la vulnérabilité pourrait potentiellement affecter d'autres architectures 32 bits et même des systèmes 64 bits, bien que l'exploitation soit plus complexe dans ces cas.
+- **Fonctionnement:** La vulnérabilité CVE-2024-6387 exploitée une condition de course dans le traitement des requêtes d'authentification. En envoyant un flux spécifique de paquets, un attaquant peut provoquer une erreur de débordement de tampon, permettant ainsi l'exécution de code arbitraire.
+- **Systèmes Affectés:** Principalement les systèmes Linux 32 bits (x86) utilisant une pile GNU libc (glibc). Cependant, la vulnérabilité pourrait potentiellement affecter d'autres architectures 32 bits et même des systèmes 64 bits, bien que l'exploitation soit plus complexe dans ces cas.
 
 ## Exploitation
 
