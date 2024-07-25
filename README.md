@@ -1,6 +1,6 @@
 ![Capture d'écran 2024-07-24 124547](https://github.com/user-attachments/assets/dc96b2d7-dc67-49ed-806e-5da14e96a324)
 
-# 🎯 NonLimit Séc : RegreSSHion
+# 🎯 NonLimit Sécu : RegreSSHion
 
 ## Introduction
 
