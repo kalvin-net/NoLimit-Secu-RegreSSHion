@@ -8,7 +8,7 @@
 
 ## Impact
 
-> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions . L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root. Il affecte la configuration par défaut et ne nécessite pas d'interaction de la part de l'utilisateur. Il présente un risque d'exploitation important.
+> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH**. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root. Il affecte la configuration par défaut et ne nécessite pas d'interaction de la part de l'utilisateur. Il présente un risque d'exploitation important.
 
 ## Détails techniques
 
