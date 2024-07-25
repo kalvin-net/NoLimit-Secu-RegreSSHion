@@ -37,5 +37,5 @@ Pour limiter le risque d'exploitation, les mesures suivantes peuvent être mises
 - Surveillez les **journaux SSH** pour détecter les activités suspectes.
 - Mettez en place des mesures de **détection d'intrusion (IDS)** et de **prévention d'intrusion (IPS)**.
 
-## **Conclusion:** 
+## 🎯 **Conclusion:** 
 > La faille RegreSSHion est une vulnérabilité sérieuse affectant les systèmes Linux 32 bits exécutant OpenSSH. Il est essentiel de mettre à jour OpenSSH vers la dernière version et de prendre d'autres mesures pour se protéger contre cette faille.
