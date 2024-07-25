@@ -14,7 +14,6 @@
 
 - **Fonctionnement:** La vulnérabilité CVE-2024-6387 exploitée une condition de course dans le traitement des requêtes d'authentification. En envoyant un flux spécifique de paquets, un attaquant peut provoquer une erreur de débordement de tampon, permettant ainsi l'exécution de code arbitraire.
 - **Systèmes Affectés:** Principalement les systèmes Linux 32 bits (x86) utilisant une pile GNU libc (glibc). Cependant, la vulnérabilité pourrait potentiellement affecter d'autres architectures 32 bits et même des systèmes 64 bits, bien que l'exploitation soit plus complexe dans ces cas.
-- Systèmes Affectés: Principalement les systèmes Linux 32 bits (x86) utilisant une pile GNU libc (glibc). Cependant, la vulnérabilité pourrait potentiellement affecter d'autres architectures 32 bits et même des systèmes 64 bits, bien que l'exploitation soit plus complexe dans ces cas.
 - Versions Concernées: Les versions d'OpenSSH comprises entre 8.5p1 et 9.7p1, ainsi que les versions antérieures à 4.4p1, sauf si elles sont protégées contre les vulnérabilités CVE-2006-5051 et CVE-2008-4109.
 
 ## Exploitation
