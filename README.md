@@ -8,7 +8,7 @@
 
 ## Impact
 
-> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root et il peut installer des programmes, modifier ou supprimer des données, ou créer de nouveaux comptes utilisateurs avec tous les privilèges.
+> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root et Il affecte la configuration par défaut et ne nécessite pas d'interaction de la part de l'utilisateur. Il présente un risque d'exploitation important.
 
 ## Détails techniques
 
