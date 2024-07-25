@@ -8,11 +8,12 @@
 
 ## Impact
 
-> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root.
+> Cette faille affecte les systèmes **Linux 32 bits** utilisant **OpenSSH** versions postérieures à fin 2020/début 2021. L'exploitation de cette faille permet à un attaquant d'exécuter du code arbitraire avec des privilèges root et il peut installer des programmes, modifier ou supprimer des données, ou créer de nouveaux comptes utilisateurs avec tous les privilèges.
 
 ## Détails techniques
 
-> La faille est due à une **condition de course** dans le gestionnaire de signaux d'OpenSSH. Un attaquant peut déclencher cette condition en envoyant un grand nombre de tentatives de connexion SSH au serveur.
+- **Fonctionnement:** La vulnérabilité exploitée une condition de course dans le traitement des requêtes d'authentification. En envoyant un flux spécifique de paquets, un attaquant peut provoquer une erreur de débordement de tampon, permettant ainsi l'exécution de code arbitraire.
+- **Systèmes Affectés:** Principalement les systèmes Linux 32 bits (x86) utilisant une pile GNU libc. Cependant, la vulnérabilité pourrait potentiellement affecter d'autres architectures 32 bits et même des systèmes 64 bits, bien que l'exploitation soit plus complexe dans ces cas.
 
 ## Exploitation
 
