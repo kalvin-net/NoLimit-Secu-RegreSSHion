@@ -18,7 +18,7 @@
 
 ## Exploitation
 
-> L'exploitation de la faille est **complexe** et nécessite un grand nombre de tentatives de connexion. Il est peu probable qu'elle soit utilisée à grande échelle.
+> L'exploitation de la faille est complexe et nécessite un grand nombre de tentatives de connexion. Il est peu probable qu'elle soit utilisée à grande échelle. Cependant, si elle réussit, l'attaquant peut compromettre le serveur où OpenSSH est installé et en prendre le contrôle, ce qui peut mener à un vol de données ou à la mise en place d'un accès persistant.
 
 ## Mitigation
 
